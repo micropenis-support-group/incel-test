@@ -37,8 +37,8 @@
    id="namedview3024"
    showgrid="false"
    inkscape:zoom="1.801866"
-   inkscape:cx="90.896"
-   inkscape:cy="225.6127"
+   inkscape:cx="277.67843"
+   inkscape:cy="296.40286"
    inkscape:window-x="-11"
    inkscape:window-y="-11"
    inkscape:window-maximized="1"
@@ -50,28 +50,32 @@
    y="294.291"
    fill="#C8E4BC"
    width="253.817"
-   height="253.817" />
+   height="253.817"
+   style="fill:#004dff;fill-opacity:0.52093023" />
 <rect
    id="rect3449"
    x="17.279"
    y="38.474"
    width="253.817"
    height="253.817"
-   fill="#F9BABA" />
+   fill="#F9BABA"
+   style="fill:#75c13c;fill-opacity:0.57209301" />
 <rect
    id="rect3447"
    x="273.097"
    y="38.474"
    fill="#92D9F8"
    width="253.817"
-   height="253.817" />
+   height="253.817"
+   style="fill:#fb7bf8;fill-opacity:0.4604651" />
 <rect
    id="rect3418"
    x="273.097"
    y="294.291"
    fill="#E1C6DF"
    width="253.817"
-   height="253.817" />
+   height="253.817"
+   style="fill:#ff7e00;fill-opacity:0.6372093" />
 <path
    id="path3210"
    fill="#010101"
@@ -236,7 +240,7 @@
 	<text
    font-size="20.431"
    id="text3020"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#4ab749"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#4a00ff;fill-opacity:1;"
    x="477.37524"
    y="288.77878"><tspan
      sodipodi:role="line"
@@ -249,7 +253,7 @@
 	<text
    font-size="20.431"
    id="text3022"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#4ab749"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#4a00ff;fill-opacity:1;"
    x="477.37524"
    y="308.77878"><tspan
      sodipodi:role="line"
