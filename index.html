@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <body>
 
-  <h1>Mac's Dumb Chart</h1>
+<head>
+    <title>Mac's Dumb Chart</title>
+    <script src="dot-mover.js"></script>
+</head>
 
-  <img src="/chad_chart.svg" />
+<body onload="prepare()">
 
-  </body>
+    <h1>Mac's Dumb Chart</h1>
+
+    <embed id="chart" src="chad_chart.svg"> </embed>
+
+    <button onclick="moveDot(100, 100)">Click me</button>
+
+</body>
+
 </html>
