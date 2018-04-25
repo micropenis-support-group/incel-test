@@ -19,7 +19,7 @@
    enable-background="new 0 0 543 591"
    xml:space="preserve"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="Political_chart.svg"><metadata
+   sodipodi:docname="chad_chart.svg"><metadata
    id="metadata3028"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
@@ -36,13 +36,13 @@
    inkscape:window-height="1346"
    id="namedview3024"
    showgrid="false"
-   inkscape:zoom="1.2741117"
-   inkscape:cx="122.07974"
-   inkscape:cy="318.9188"
+   inkscape:zoom="1.801866"
+   inkscape:cx="328.83493"
+   inkscape:cy="287.78881"
    inkscape:window-x="-11"
    inkscape:window-y="-11"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g3493"
+   inkscape:current-layer="Layer_1"
    inkscape:snap-text-baseline="true" />
 <rect
    id="rect3451"
@@ -105,7 +105,8 @@
      sodipodi:role="line"
      id="tspan847"
      x="25.379999"
-     y="284.50201">Personality</tspan></text>
+     y="284.50201">Beta</tspan></text>
+
 
 
 <text
@@ -117,7 +118,8 @@
      sodipodi:role="line"
      id="tspan849"
      x="518.789"
-     y="284.43201">Personality</tspan></text>
+     y="284.43201">Chad</tspan></text>
+
 
 
 <text
@@ -129,17 +131,21 @@
      sodipodi:role="line"
      id="tspan851"
      x="272.49152"
-     y="581.30182">Looks</tspan></text>
+     y="581.30182">Beta Looks</tspan></text>
+
 
 
 <text
    font-size="20.431"
    id="text3002"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066661px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr;text-anchor:middle;fill:#010101;"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#010101"
    x="272.04999"
    y="22.565001"><tspan
      sodipodi:role="line"
-     id="tspan841">Looks</tspan></text>
+     id="tspan841"
+     x="272.04999"
+     y="22.565001">Chad Looks</tspan></text>
+
 
 
 <g
@@ -157,6 +163,7 @@
      y="291.32938">Chad</tspan></text>
 
 
+
 	<text
    font-size="20.431"
    id="text3007"
@@ -167,6 +174,7 @@
      id="tspan855"
      x="476.43683"
      y="311.32938">Chad</tspan></text>
+
 
 
 </g>
@@ -181,12 +189,14 @@
    y="292.76495">Beta</text>
 
 
+
 	<text
    font-size="20.431"
    id="text3012"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f37f81"
    x="478.25409"
    y="311.32938">Chad</text>
+
 
 
 </g>
@@ -205,6 +215,7 @@
      y="291.51212">Chad</tspan></text>
 
 
+
 	<text
    font-size="20.431"
    id="text3017"
@@ -215,6 +226,7 @@
      id="tspan859"
      x="477.69672"
      y="310.94766">Beta</tspan></text>
+
 
 
 </g>
@@ -233,6 +245,7 @@
      y="288.77878">Beta</tspan></text>
 
 
+
 	<text
    font-size="20.431"
    id="text3022"
@@ -245,7 +258,28 @@
      y="308.77878">Beta</tspan></text>
 
 
+
 </g>
 
 
+<text
+   font-size="20.431"
+   id="text2996-1"
+   x="25.379999"
+   y="314.50201"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#010101"><tspan
+     sodipodi:role="line"
+     id="tspan847-9"
+     x="25.379999"
+     y="314.50201">Personality</tspan></text>
+<text
+   font-size="20.431"
+   id="text2998-6"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#010101"
+   x="518.789"
+   y="314.43201"><tspan
+     sodipodi:role="line"
+     id="tspan849-3"
+     x="518.789"
+     y="314.43201">Personality</tspan></text>
 </svg>
