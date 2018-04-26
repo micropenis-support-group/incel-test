@@ -1,18 +1,34 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Mac's Dumb Chart</title>
-    <script src="assets/scripts/dot-mover.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/dot-mover.js"></script>
+    <script type="text/javascript" src="assets/scripts/questioner.js"></script>
 </head>
 
 <body onload="prepare()">
 
-    <h1>Mac's Dumb Chart</h1>
+<h1>Mac's Dumb Chart</h1>
 
-    <embed id="chart" src="assets/img/chad_chart.svg" />
+<embed id="chart" src="assets/img/chad_chart.svg" />
 
-    <button onclick="moveDot(100, 100)">Click me</button>
+<button onclick="moveDot(100, 100)">Click me</button>
+
+<div>
+    <p id="quizPrompt">Question</p>
+    <div id="answers">
+        <!-- Hardcoded buttons
+        <button id="quizA1">Answer 1</button>
+        <button id="quizA2">Answer 2</button>
+        <button id="quizA3">Answer 3</button>
+        <button id="quizA4">Answer 4</button>
+        <button id="quizA5">Answer 5</button>
+        -->
+    </div>
+</div>
 
 </body>
 
