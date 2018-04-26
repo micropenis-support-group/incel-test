@@ -4,29 +4,36 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Mac's Dumb Chart</title>
+    <link href="assets/style/bootstrap.min.css-united.css" rel="stylesheet" />
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/scripts/dot-mover.js"></script>
     <script type="text/javascript" src="assets/scripts/questioner.js"></script>
 </head>
 
-<body onload="prepare()">
+<body>
 
-<h1>Mac's Dumb Chart</h1>
+<embed id="chart" src="assets/img/chad_chart.svg" hidden="hidden" />
 
-<embed id="chart" src="assets/img/chad_chart.svg" />
+<div class="container">
+    <div id="header" class="page-header">
+        <h1>Are you a Chad or a Beta?</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-8" id="quizArea">
+            <h2 id="quizAreaPrompt"></h2>
+            <div id="quizAreaAnswers">
+                <!-- Hardcoded buttons
+                <button id="quizA1">Answer 1</button>
+                <button id="quizA2">Answer 2</button>
+                <button id="quizA3">Answer 3</button>
+                <button id="quizA4">Answer 4</button>
+                <button id="quizA5">Answer 5</button>
+                -->
+            </div>
+        </div>
+        <div class="col-md-4">
 
-<button onclick="moveDot(100, 100)">Click me</button>
-
-<div>
-    <p id="quizPrompt">Question</p>
-    <div id="answers">
-        <!-- Hardcoded buttons
-        <button id="quizA1">Answer 1</button>
-        <button id="quizA2">Answer 2</button>
-        <button id="quizA3">Answer 3</button>
-        <button id="quizA4">Answer 4</button>
-        <button id="quizA5">Answer 5</button>
-        -->
+        </div>
     </div>
 </div>
 
