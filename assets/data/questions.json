@@ -1,13 +1,16 @@
-{"questions": [
-	{
-		"prompt" : "Describe your chin",
-		"looks" : true,
-		"answers" : [
-			"Cleft, pronounced jawline",
-			"Reasonably nice jaw",
-			"Average",
-			"Double chin",
-			"No jaw"
-		]
-	}
-]}
+{
+	"questions": [
+		{
+			"prompt" : "Describe your chin",
+			"looks" : true,
+			"answers" : [
+				"Cleft, pronounced jawline",
+				"Reasonably nice jaw",
+				"Average",
+				"Double chin",
+				"No jaw"
+			]
+		} // Add comma after this curly brace and duplicate above block including curly braces
+
+	] // End of question array
+}
