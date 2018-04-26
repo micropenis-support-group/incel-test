@@ -1,9 +1,31 @@
 ﻿var questionList;
+var questionNum = 0;
 var numAnswers;
 var isLooks;
+var personality = 0;
+var looks = 0;
 
 function logAnswer(answerId) {
-    
+    var answerText = document.getElementById("quizA" + answerId).innerHTML;
+
+    $("<div></div>", {
+        "class": "card border-primary",
+        "id": "formerAnswer" + questionNum
+    }).appendTo("#answeredCol");
+    $("<div></div>", {
+        "class": "card-header",
+        "text": questionList[questionNum].prompt
+    }).appendTo(("#formerAnswer" + questionNum));
+    $("<div></div>", {
+        "class": "card-body",
+        "id": "formerAnswer" + questionNum + "body"
+    }).appendTo(("#formerAnswer" + questionNum));
+    $("<p></p>", {
+        "class": "card-text",
+        "text": answerText
+    }).appendTo(("#formerAnswer" + questionNum + "body"));
+
+
 }
 
 function loadQuestion(questionId) {
@@ -24,7 +46,7 @@ function loadQuestion(questionId) {
         }).appendTo("#quizAreaAnswers");
         numAnswers = index;
     });
-    console.log("Question list " + questionId + " displayed.");
+    console.log("Answer list " + questionId + " displayed with " + numAnswers + " answers.");
 
     // Retrieve looks or personality
     isLooks = q.looks;
@@ -35,11 +57,7 @@ function loadQuestion(questionId) {
     }
 }
 
-$("button.answer").click(function () {
-    console.log("Click detected.");
-    $(this).class = "answer btn btn-success btn-lg btn-block";
-    logAnswer($(this).id.substring(5));
-});
+
 
 $.getJSON("assets/data/questions.json",
     function(data) {
@@ -49,7 +67,13 @@ $.getJSON("assets/data/questions.json",
 
 $(document).ready(function () {
     console.log("Document loaded.");
-    loadQuestion(0);
+    loadQuestion(questionNum);
+});
+
+$("button.answer").click(function () {
+    console.log("Click detected.");
+    $(this).class = "answer btn btn-success btn-lg btn-block";
+    logAnswer($(this).id.substring(5));
 });
 
 //var my_JSON_object = JSON.parse(request("../data/questions.json"));
