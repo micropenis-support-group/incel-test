@@ -3,11 +3,11 @@
 		"prompt" : "Describe your chin",
 		"looks" : true,
 		"answers" : [
-			{ "text" : "Cleft, pronounced jawline" },
-			{ "text" : "Reasonably nice jaw" },
-			{ "text" : "Average" },
-			{ "text" : "Double chin" },
-			{ "text" : "No jaw" }
+			"Cleft, pronounced jawline",
+			"Reasonably nice jaw",
+			"Average",
+			"Double chin",
+			"No jaw"
 		]
 	}
 ]}
