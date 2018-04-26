@@ -25,7 +25,15 @@ function logAnswer(answerId) {
         "text": answerText
     }).appendTo(("#formerAnswer" + questionNum + "body"));
 
-
+    var score = answerId - (numAnswers / 2);
+    console.log("Raw score:" + score + ".");
+    if (isLooks) {
+        looks += score;
+        console.log("Looks value is now " + looks + ".");
+    } else {
+        personality += score;
+        console.log("Personality value is now " + personality + ".");
+    }
 }
 
 function loadQuestion(questionId) {
@@ -66,15 +74,18 @@ $.getJSON("assets/data/questions.json",
     });
 
 $(document).ready(function () {
+    $("button").click(function () {
+        alert("button");
+    });
     console.log("Document loaded.");
     loadQuestion(questionNum);
 });
 
-$("button.answer").click(function () {
-    console.log("Click detected.");
-    $(this).class = "answer btn btn-success btn-lg btn-block";
-    logAnswer($(this).id.substring(5));
-});
+//$("button.answer").click(function () {
+//    console.log("Click detected.");
+//    $(this).class = "answer btn btn-success btn-lg btn-block";
+//    logAnswer($(this).id.substring(5));
+//});
 
 //var my_JSON_object = JSON.parse(request("../data/questions.json"));
 
