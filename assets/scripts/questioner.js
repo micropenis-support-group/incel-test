@@ -132,8 +132,8 @@ function finale() {
     if (personalityFinal == 0 && looksFinal == 0) {
         $("#congrats-message").addClass('alert-secondary');
         $("#congrats-message").prop('innerHTML',
-            "<strong>Radical Center.</strong> You are Hillary Clinton.");
-    } else if (personalityFinal < 0 && looksFinal > 0) {
+            "<strong>Radical Center.</strong> You are Jared Fogle.");
+    } else if (personalityFinal <= 0 && looksFinal >= 0) {
         $("#congrats-message").addClass('alert-danger');
         $("#congrats-message").prop('innerHTML',
             "<strong>You are Beta Beta.</strong> " +
@@ -144,7 +144,7 @@ function finale() {
             "you haven’t gotten over it. " +
             "You haven’t had human contact in months, and at this point the only chance you have now " +
             "is to retreat back to your mother’s basement and hope that God grants you a second chance at life.");
-    } else if (personalityFinal < 0 && looksFinal < 0) {
+    } else if (personalityFinal < 0 && looksFinal <= 0) {
         $("#congrats-message").addClass('alert-warning');
         $("#congrats-message").prop('innerHTML',
             "<strong>You are Beta Chad.</strong> " +
@@ -156,7 +156,7 @@ function finale() {
             "Your massive muscles are nothing more than a cover for your corroded soul. " +
             "If you ever get a girlfriend, you have to constantly be on your guard so that you don’t accidently slip " +
             "that you know the entire script to Naruto by heart and she realized the monster you truly are.");
-    } else if (personalityFinal > 0 && looksFinal > 0) {
+    } else if (personalityFinal >= 0 && looksFinal > 0) {
         $("#congrats-message").addClass('alert-info');
         $("#congrats-message").prop('innerHTML',
             "<strong>You are Chad Beta.</strong> " +
