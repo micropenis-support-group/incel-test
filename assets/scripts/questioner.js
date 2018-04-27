@@ -132,7 +132,8 @@ function finale() {
     if (personalityFinal == 0 && looksFinal == 0) {
         $("#congrats-message").addClass('alert-secondary');
         $("#congrats-message").prop('innerHTML',
-            "<strong>Radical Center.</strong> You are Jared Fogle.");
+            "<strong>Radical Center.</strong> You are Jared Fogle. <br/>" +
+            "<img src=\"https://qz.com/wp-content/uploads/2015/07/jared-fogle.jpg\" title=\"Jared Fogle thumbs-up\" style=\"width: 100%; display: block;\" />");
     } else if (personalityFinal <= 0 && looksFinal >= 0) {
         $("#congrats-message").addClass('alert-danger');
         $("#congrats-message").prop('innerHTML',
