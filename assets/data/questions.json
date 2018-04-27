@@ -206,17 +206,6 @@
             ]
         },
         {
-            "prompt": "What’s your major",
-            "looks": false,
-            "answers": [
-                "social science",
-                "humanities",
-                "fine arts",
-                "chem, bio, pre-med",
-                "math/comp sci/physics"
-            ]
-        },
-        {
             "prompt": "How big is your circle of friends?",
             "looks": false,
             "answers": [
