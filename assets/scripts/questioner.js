@@ -130,12 +130,12 @@ function finale() {
     $("#chart").removeAttr('hidden');
 
     if (personalityFinal == 0 && looksFinal == 0) {
-        $("#congrats-message").addClass('bg-secondary');
+        $("#congrats-message").addClass('bg-secondary mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Jared Fogle.");
         $("#congrats-message-body").prop('innerHTML',
             "<img src=\"https://qz.com/wp-content/uploads/2015/07/jared-fogle.jpg\" title=\"Jared Fogle thumbs-up\" style=\"width: 100%; display: block;\" />");
     } else if (personalityFinal <= 0 && looksFinal >= 0) {
-        $("#congrats-message").addClass('bg-danger');
+        $("#congrats-message").addClass('bg-danger mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Beta Beta.");
         $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You look like a beta male and have the personality of one too. " +
@@ -146,7 +146,7 @@ function finale() {
             "You haven’t had human contact in months, and at this point the only chance you have now " +
             "is to retreat back to your mother’s basement and hope that God grants you a second chance at life.</p>");
     } else if (personalityFinal < 0 && looksFinal <= 0) {
-        $("#congrats-message").addClass('bg-warning');
+        $("#congrats-message").addClass('bg-warning mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Beta Chad.");
         $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You look like a chad but have the personality of a beta male. " +
@@ -158,7 +158,7 @@ function finale() {
             "If you ever get a girlfriend, you have to constantly be on your guard so that you don’t accidently slip " +
             "that you know the entire script to Naruto by heart and she realized the monster you truly are.</p>");
     } else if (personalityFinal >= 0 && looksFinal > 0) {
-        $("#congrats-message").addClass('bg-info');
+        $("#congrats-message").addClass('bg-info mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Chad Beta.");
         $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You have the personality of a chad but the looks of a beta male. " +
@@ -167,7 +167,7 @@ function finale() {
             "Your chad-ness will still carry you through life, so enjoy graduating with an econ/poly sci major and getting a desk job, " +
             "and marrying an ex-sorority girl at age 30, and having two kids named Brad and Stacey.</p>");
     } else if (personalityFinal > 0 && looksFinal < 0) {
-        $("#congrats-message").addClass('bg-success');
+        $("#congrats-message").addClass('bg-success mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Chad Chad.");
         $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You look and act like Mr. Steal Your Girl. " +
