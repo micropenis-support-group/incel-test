@@ -130,9 +130,11 @@ function finale() {
     $("#chart").prop('hidden', '');
 
     if (personalityFinal == 0 && looksFinal == 0) {
+        $("#congrats-message").addClass('alert-secondary');
         $("#congrats-message").prop('innerHTML',
-            "<strong>Radical Center</strong> You are Hillary Clinton.");
+            "<strong>Radical Center.</strong> You are Hillary Clinton.");
     } else if (personalityFinal < 0 && looksFinal > 0) {
+        $("#congrats-message").addClass('alert-danger');
         $("#congrats-message").prop('innerHTML',
             "<strong>You are Beta Beta.</strong> " +
             "You look like a beta male and have the personality of one too. " +
@@ -143,14 +145,40 @@ function finale() {
             "You haven’t had human contact in months, and at this point the only chance you have now " +
             "is to retreat back to your mother’s basement and hope that God grants you a second chance at life.");
     } else if (personalityFinal < 0 && looksFinal < 0) {
+        $("#congrats-message").addClass('alert-warning');
         $("#congrats-message").prop('innerHTML',
-            "<strong>You are Beta Chad.</strong> You look like a chad but have the personality of a beta male. You are likely a Beta Beta who decided to try to improve himself and start hitting the gym. You now have a body that is sculpted from marble, but I just want to let you know that it won’t help. No matter what clothes you buy, what you can bench, it will never change what a repugnant human being you are. No amount of skincare products you use will ever wash away all the anime episodes you have watched. Your massive muscles are nothing more than a cover for your corroded soul. If you ever get a girlfriend, you have to constantly be on your guard so that you don’t accidently slip that you know the entire script to Naruto by heart and she realized the monster you truly are.");
+            "<strong>You are Beta Chad.</strong> " +
+            "You look like a chad but have the personality of a beta male. " +
+            "You are likely a Beta Beta who decided to try to improve himself and start hitting the gym. " +
+            "You now have a body that is sculpted from marble, but I just want to let you know that it won’t help. " +
+            "No matter what clothes you buy, what you can bench, it will never change what a repugnant human being you are. " +
+            "No amount of skincare products you use will ever wash away all the anime episodes you have watched. " +
+            "Your massive muscles are nothing more than a cover for your corroded soul. " +
+            "If you ever get a girlfriend, you have to constantly be on your guard so that you don’t accidently slip " +
+            "that you know the entire script to Naruto by heart and she realized the monster you truly are.");
     } else if (personalityFinal > 0 && looksFinal > 0) {
+        $("#congrats-message").addClass('alert-info');
         $("#congrats-message").prop('innerHTML',
-            "<strong>You are Chad Beta.</strong> You have the personality of a chad but the looks of a beta male. Don’t worry, even though you look like a fat piece of shit your chad personality will carry you through life. You probably are part of a frat, and can talk to chicks at parties. Your chad-ness will still carry you through life, so enjoy graduating with an econ/poly sci major and getting a desk job, and marrying an ex-sorority girl at age 30, and having two kids named Brad and Stacey.");
+            "<strong>You are Chad Beta.</strong> " +
+            "You have the personality of a chad but the looks of a beta male. " +
+            "Don’t worry, even though you look like a fat piece of shit your chad personality will carry you through life. " +
+            "You probably are part of a frat, and can talk to chicks at parties. " +
+            "Your chad-ness will still carry you through life, so enjoy graduating with an econ/poly sci major and getting a desk job, " +
+            "and marrying an ex-sorority girl at age 30, and having two kids named Brad and Stacey.");
     } else if (personalityFinal > 0 && looksFinal < 0) {
+        $("#congrats-message").addClass('alert-success');
         $("#congrats-message").prop('innerHTML',
-            "<strong>You are Chad Chad.</strong> You look and act like Mr. Steal Your Girl. You naturally smell like old spice, and no matter what happens you always manage to find a clean vineyard vines shirt in your closet. You sweat juul pods, and your urine is bottled and sold as craft beer. Your future entails: You enjoy working as an I-banker at Goldman Sachs. You married your formal date. You lived in an upper middle class suburban house. Your son just got named captain of the football team, and he named you his role model at his acceptance speech. Your life is on easy mode. Just please, when your living your perfect life, just remember the beta betas of the world, living in their mom’s basement, covered in Cheeto dust and trying to understand how to function like a human. Please remember the most destitute of humans and try to be grateful for the fact that God has handed you a golden, 6 pack and prefect blonde hair shaped ticket.            ");
+            "<strong>You are Chad Chad.</strong> " +
+            "You look and act like Mr. Steal Your Girl. " +
+            "You naturally smell like old spice, and no matter what happens you always manage to find a clean vineyard vines shirt" +
+            "in your closet. You sweat juul pods, and your urine is bottled and sold as craft beer. " +
+            "Your future entails: You enjoy working as an I-banker at Goldman Sachs. You married your formal date. " +
+            "You lived in an upper middle class suburban house. Your son just got named captain of the football team, " +
+            "and he named you his role model at his acceptance speech. Your life is on easy mode. " +
+            "Just please, when your living your perfect life, just remember the beta betas of the world, living in their mom’s basement, " +
+            "covered in Cheeto dust and trying to understand how to function like a human. " +
+            "Please remember the most destitute of humans and try to be grateful for the fact that God has handed you a golden, " +
+            "6 pack and prefect blonde hair shaped ticket.");
     }
     $("#congrats-message").prop('hidden', '');
 }
