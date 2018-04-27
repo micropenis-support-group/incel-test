@@ -116,7 +116,14 @@ function finale() {
     $("#quizAreaAnswers").empty();
     console.log("Answers cleared");
     $("#quizAreaPrompt").prop('innerHTML', "Your score");
-    moveDot((-100 * personality), (-100 * looks));
+
+    // Scale scores
+    var personalityFinal = -1 * personality * (253 / personalityCount)
+    console.log("Final personality: " + personalityFinal);
+    var looksFinal = looks * (253 / looksCount)
+    console.log("Final looks: " + looksFinal);
+
+    moveDot((personalityFinal), (looksFinal));
     $("#chart").prop('hidden', '');
 }
 
