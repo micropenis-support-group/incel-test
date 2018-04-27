@@ -1,15 +1,191 @@
 {
-    "questions": [
-        {
-            "prompt" : "Describe your chin",
-            "looks" : true,
-            "answers" : [
-                "Cleft, pronounced jawline",
-                "Reasonably nice jaw",
-                "Average",
-                "Double chin",
-                "No jaw"
-            ]
-        } 
-    ]
+	"questions": [
+		{
+			"prompt": "Describe your chin",
+			"looks": true,
+			"answers": [
+				"Cleft, pronounced jawline",
+				"Reasonably nice jaw",
+				"Average",
+				"Double chin",
+				"No jaw"
+			]
+		},
+		{
+			"prompt": "Height in feet",
+			"looks": true,
+			"answers": [
+				"6’2<",
+				"6’0-6’2",
+				"5’10-6’0",
+				"5’8-5,10",
+				"<5’8"
+			]
+		},
+		{
+			"prompt": "How athletic is your build?",
+			"looks": true,
+			"answers": [
+				"prison muscle",
+				"some muscle definition",
+				"not chubby, no muscle definition",
+				"skinny or chubby",
+				"fat or very skinny"
+			]
+		},
+		{
+			"prompt": "Do you have facial acne?",
+			"looks": true,
+			"answers": [
+				"No",
+				"Yes"
+			]
+		},
+		{
+			"prompt": "Do you have a beard?",
+			"looks": true,
+			"answers": [
+				"no",
+				"yes"
+			]
+		},
+		{
+			"prompt": "Dick Length (in inches)?",
+			"looks": true,
+			"answers": [
+				"7+",
+				"6-7",
+				"5-6",
+				"4-5",
+				"<4"
+			]
+		},
+		{
+			"prompt": "Do you have a full head of hair?",
+			"looks": true,
+			"answers": [
+				"Greek God hair",
+				"full head of hair",
+				"spotting",
+				"bald or shaved my head by “choice”",
+				"balding"
+			]
+		},
+		{
+			"prompt": "How do you keep your body hair?",
+			"looks": true,
+			"answers": [
+				"I manscape",
+				"happy trail",
+				"some taco salad coming out",
+				"Greek back",
+				"bear cub"
+			]
+		},
+		{
+			"prompt": "How symmetrical are your facial features?",
+			"looks": true,
+			"answers": [
+				"My face is sculpted from marble",
+				"barely noticeable asymmetry",
+				"normal symmetry",
+				"noticeable asymmetry",
+				"I look like I’m having a stroke"
+			]
+		},
+		{
+			"prompt": "How big are your hands?",
+			"looks": true,
+			"answers": [
+				"big, meaty, claws",
+				"catchers mitts",
+				"normal size",
+				"Female hand model size",
+				"Donald Trump hands"
+			]
+		},
+		{
+			"prompt": "How expensive is your average outfit?(in dollars)",
+			"looks": true,
+			"answers": [
+				"160-200",
+				"120-160",
+				"80-120",
+				"40-80",
+				"0-40"
+			]
+		},
+		{
+			"prompt": "Have you watched anime (at least one episode)?",
+			"looks": false,
+			"answers": [
+				"No",
+				"Yes"
+			]
+		},
+		{
+			"prompt": "How many hours of videogames do you play in a week (excluding FortNite)",
+			"looks": false,
+			"answers": [
+				"0-7",
+				"7-14",
+				"14-21",
+				"21-28",
+				"28+"
+			]
+		},
+		{
+			"prompt": "How many times do you jack off in a week",
+			"looks": false,
+			"answers": [
+				"0-2",
+				"2-5",
+				"5-7",
+				"7-10",
+				"10+"
+			]
+		},
+		{
+			"prompt": "What do you vape with",
+			"looks": false,
+			"answers": [
+				"I rip that juul",
+				"I only socially rip that juul",
+				"I don’t vape",
+				"I have a box vape",
+				"I have a custom vape"
+			]
+		},
+		{
+			"prompt": "Do you darty",
+			"looks": false,
+			"answers": [
+				"yes",
+				"no",
+				"the fucks a darty"
+			]
+		},
+		{
+			"prompt": "How many nights do you party",
+			"looks": false,
+			"answers": [
+				"I’m never sober",
+				"2-4 times a week",
+				"1-2 times a week",
+				"1, but your in the corner the whole time",
+				"0"
+			]
+		},
+		{
+			"prompt": "What’s your major",
+			"looks": false,
+			"answers": [
+				"social science",
+				"humanities",
+				"fine arts",
+				"chem, bio, pre-med",
+				"math/comp sci/physics"
+			]
+		}
+	]
 }
