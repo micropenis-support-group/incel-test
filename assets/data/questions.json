@@ -126,6 +126,17 @@
             ]
         },
         {
+            "prompt": "What kind of shoes do you wear?",
+            "looks": true,
+            "answers": [
+                "premium calf leather loafers",
+                "Yeezy",
+                "converse",
+                "adult sketchers",
+                "those fucking toe shoes"
+            ]
+        },
+        {
             "prompt": "Have you watched anime?",
             "looks": false,
             "answers": [
@@ -217,6 +228,15 @@
                 "2-3",
                 "1",
                 "0"
+            ]
+        },
+        {
+            "prompt": "What's 4chan",
+            "looks": false,
+            "answers": [
+                "what’s 4chan",
+                "a hacker",
+                "a website"
             ]
         },
         {
