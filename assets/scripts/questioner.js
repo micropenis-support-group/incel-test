@@ -130,25 +130,25 @@ function finale() {
     $("#chart").removeAttr('hidden');
 
     if (personalityFinal == 0 && looksFinal == 0) {
-        $("#congrats-message").addClass('alert-secondary');
-        $("#congrats-message").prop('innerHTML',
-            "<strong>Radical Center.</strong> You are Jared Fogle. <br/>" +
+        $("#congrats-message").addClass('bg-secondary');
+        $("#congrats-message-header").prop('innerHTML', "You are Jared Fogle.");
+        $("#congrats-message-body").prop('innerHTML',
             "<img src=\"https://qz.com/wp-content/uploads/2015/07/jared-fogle.jpg\" title=\"Jared Fogle thumbs-up\" style=\"width: 100%; display: block;\" />");
     } else if (personalityFinal <= 0 && looksFinal >= 0) {
-        $("#congrats-message").addClass('alert-danger');
-        $("#congrats-message").prop('innerHTML',
-            "<strong>You are Beta Beta.</strong> " +
+        $("#congrats-message").addClass('bg-danger');
+        $("#congrats-message-header").prop('innerHTML', "You are Beta Beta.");
+        $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You look like a beta male and have the personality of one too. " +
             "You are truly the lowest of society. " +
             "You look like a slightly overfilled sandwich bag full of cottage cheese with an anime t-shirt. " +
             "You probably have never had a girlfriend, and if you did she likely broke up with you years ago and " +
             "you haven’t gotten over it. " +
             "You haven’t had human contact in months, and at this point the only chance you have now " +
-            "is to retreat back to your mother’s basement and hope that God grants you a second chance at life.");
+            "is to retreat back to your mother’s basement and hope that God grants you a second chance at life.</p>");
     } else if (personalityFinal < 0 && looksFinal <= 0) {
-        $("#congrats-message").addClass('alert-warning');
-        $("#congrats-message").prop('innerHTML',
-            "<strong>You are Beta Chad.</strong> " +
+        $("#congrats-message").addClass('bg-warning');
+        $("#congrats-message-header").prop('innerHTML', "You are Beta Chad.");
+        $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You look like a chad but have the personality of a beta male. " +
             "You are likely a Beta Beta who decided to try to improve himself and start hitting the gym. " +
             "You now have a body that is sculpted from marble, but I just want to let you know that it won’t help. " +
@@ -156,20 +156,20 @@ function finale() {
             "No amount of skincare products you use will ever wash away all the anime episodes you have watched. " +
             "Your massive muscles are nothing more than a cover for your corroded soul. " +
             "If you ever get a girlfriend, you have to constantly be on your guard so that you don’t accidently slip " +
-            "that you know the entire script to Naruto by heart and she realized the monster you truly are.");
+            "that you know the entire script to Naruto by heart and she realized the monster you truly are.</p>");
     } else if (personalityFinal >= 0 && looksFinal > 0) {
-        $("#congrats-message").addClass('alert-info');
-        $("#congrats-message").prop('innerHTML',
-            "<strong>You are Chad Beta.</strong> " +
+        $("#congrats-message").addClass('bg-info');
+        $("#congrats-message-header").prop('innerHTML', "You are Chad Beta.");
+        $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You have the personality of a chad but the looks of a beta male. " +
             "Don’t worry, even though you look like a fat piece of shit your chad personality will carry you through life. " +
             "You probably are part of a frat, and can talk to chicks at parties. " +
             "Your chad-ness will still carry you through life, so enjoy graduating with an econ/poly sci major and getting a desk job, " +
-            "and marrying an ex-sorority girl at age 30, and having two kids named Brad and Stacey.");
+            "and marrying an ex-sorority girl at age 30, and having two kids named Brad and Stacey.</p>");
     } else if (personalityFinal > 0 && looksFinal < 0) {
-        $("#congrats-message").addClass('alert-success');
-        $("#congrats-message").prop('innerHTML',
-            "<strong>You are Chad Chad.</strong> " +
+        $("#congrats-message").addClass('bg-success');
+        $("#congrats-message-header").prop('innerHTML', "You are Chad Chad.");
+        $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You look and act like Mr. Steal Your Girl. " +
             "You naturally smell like old spice, and no matter what happens you always manage to find a clean vineyard vines shirt" +
             "in your closet. You sweat juul pods, and your urine is bottled and sold as craft beer. " +
@@ -179,7 +179,7 @@ function finale() {
             "Just please, when your living your perfect life, just remember the beta betas of the world, living in their mom’s basement, " +
             "covered in Cheeto dust and trying to understand how to function like a human. " +
             "Please remember the most destitute of humans and try to be grateful for the fact that God has handed you a golden, " +
-            "6 pack and prefect blonde hair shaped ticket.");
+            "6 pack and prefect blonde hair shaped ticket.</p>");
     }
     $("#congrats-message").removeAttr('hidden');
 }
