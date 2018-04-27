@@ -21,11 +21,14 @@ $(document).ready(function() {
             console.log("Question list loaded:");
             console.log(questionList);
             loadQuestion(0);
+            $("#progressbar").attr('aria-valuemax', questionList.length);
         });
 });
 
 function logAnswer(answerId) {
     var answerText = document.getElementById("quizA" + answerId).innerHTML;
+    $("#progressbar").attr('aria-valuenow', questionNum + 1);
+    $("#progressbar").attr('style', 'width: ' + (100 * (questionNum + 1) / questionList.length) + '%');
 
     $("<div></div>", {
         "class": "card border-primary",
