@@ -1,9 +1,25 @@
-﻿var questionList;
+﻿var questionList = Array;
 var questionNum = 0;
 var numAnswers;
 var isLooks;
 var personality = 0;
 var looks = 0;
+
+$(document).ready(function() {
+    console.log("Document loaded.");
+
+    $("button").click(function() {
+        alert("button");
+    });
+
+    $.getJSON("assets/data/questions.json",
+        function(data) {
+            questionList = data.questions;
+            console.log("Question list loaded:");
+            console.log(questionList);
+            loadQuestion(0);
+        });
+});
 
 function logAnswer(answerId) {
     var answerText = document.getElementById("quizA" + answerId).innerHTML;
@@ -37,6 +53,9 @@ function logAnswer(answerId) {
 }
 
 function loadQuestion(questionId) {
+    if (questionList.length <= questionId) {
+        return;
+    }
     // Load the question
     var q = questionList[questionId];
     console.log("Question loaded into memory.");
@@ -46,7 +65,7 @@ function loadQuestion(questionId) {
     console.log("Prompt " + questionId + ", \"" + q.prompt + "\" displayed.");
 
     // Create a button for each answer
-    $.each(q.answers, function (index, value) {
+    $.each(q.answers, function(index, value) {
         $("<button>", {
             "class": "answer btn btn-outline-primary btn-lg btn-block",
             "text": value,
@@ -54,7 +73,7 @@ function loadQuestion(questionId) {
         }).appendTo("#quizAreaAnswers");
         numAnswers = index;
     });
-    console.log("Answer list " + questionId + " displayed with " + numAnswers + " answers.");
+    console.log("Answer list " + questionId + " displayed with " + (numAnswers + 1) + " answers.");
 
     // Retrieve looks or personality
     isLooks = q.looks;
@@ -65,22 +84,6 @@ function loadQuestion(questionId) {
     }
 }
 
-
-
-$.getJSON("assets/data/questions.json",
-    function(data) {
-        questionList = data.questions;
-        console.log(questionList);
-    });
-
-$(document).ready(function () {
-    $("button").click(function () {
-        alert("button");
-    });
-    console.log("Document loaded.");
-    loadQuestion(questionNum);
-});
-
 //$("button.answer").click(function () {
 //    console.log("Click detected.");
 //    $(this).class = "answer btn btn-success btn-lg btn-block";
@@ -88,4 +91,3 @@ $(document).ready(function () {
 //});
 
 //var my_JSON_object = JSON.parse(request("../data/questions.json"));
-
