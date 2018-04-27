@@ -127,7 +127,7 @@ function finale() {
     console.log("Final looks: " + looksFinal);
 
     moveDot((personalityFinal), (looksFinal));
-    $("#chart").prop('hidden', '');
+    $("#chart").removeAttr('hidden');
 
     if (personalityFinal == 0 && looksFinal == 0) {
         $("#congrats-message").addClass('alert-secondary');
@@ -181,7 +181,7 @@ function finale() {
             "Please remember the most destitute of humans and try to be grateful for the fact that God has handed you a golden, " +
             "6 pack and prefect blonde hair shaped ticket.");
     }
-    $("#congrats-message").prop('hidden', '');
+    $("#congrats-message").removeAttr('hidden');
 }
 
 //$("button.answer").click(function () {
