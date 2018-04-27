@@ -187,11 +187,44 @@
             ]
         },
         {
-            "prompt": "Have you had sex, ever?",
+            "prompt": "Are you a member of a frat?",
             "looks": false,
             "answers": [
                 "Yes",
                 "No"
+            ]
+        },
+        {
+            "prompt": "How many past girlfriends have you had?",
+            "looks": false,
+            "answers": [
+                "5+",
+                "4-5",
+                "2-3",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "prompt": "What’s your major",
+            "looks": false,
+            "answers": [
+                "social science",
+                "humanities",
+                "fine arts",
+                "chem, bio, pre-med",
+                "math/comp sci/physics"
+            ]
+        },
+        {
+            "prompt": "How big is your circle of friends?",
+            "looks": false,
+            "answers": [
+                "15+",
+                "10-15",
+                "5-10",
+                "2-5",
+                "0-2"
             ]
         }
     ]
