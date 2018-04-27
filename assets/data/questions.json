@@ -115,11 +115,14 @@
             ]
         },
         {
-            "prompt": "Have you watched anime (at least one episode)?",
+            "prompt": "Have you watched anime?",
             "looks": false,
             "answers": [
-                "No",
-                "Yes"
+                "I’ve never seen anime",
+                "I’ve only seen a couple minutes of an anime",
+                "I’ve seen around one episode of anime",
+                "I’ve seen several episodes of anime",
+                "I’ve finished more than one anime series"
             ]
         },
         {
