@@ -33,7 +33,7 @@ function logAnswer(answerId) {
     $("<div></div>", {
         "class": "card border-primary",
         "id": "formerAnswer" + questionNum
-    }).appendTo("#answeredCol");
+    }).prependTo("#answeredCol");
     $("<div></div>", {
         "class": "card-header",
         "text": questionList[questionNum].prompt
