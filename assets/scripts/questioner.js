@@ -184,10 +184,13 @@ function finale() {
     $("#congrats-message").removeAttr('hidden');
 }
 
-//$("button.answer").click(function () {
-//    console.log("Click detected.");
-//    $(this).class = "answer btn btn-success btn-lg btn-block";
-//    logAnswer($(this).id.substring(5));
-//});
+function moveDot(xOffset, yOffset) {
+    //var chart = document.getElementById("chart");
+    //var doc = (chart.contentDocument) ? chart.contentDocument : chart.contentWindow.document;
+    var dot = document.getElementById("pinpoint");
 
-//var my_JSON_object = JSON.parse(request("../data/questions.json"));
+    if (dot) {
+        var transformAttr = ' translate(' + xOffset + ',' + yOffset + ')';
+        dot.setAttribute('transform', transformAttr);
+    }
+}
