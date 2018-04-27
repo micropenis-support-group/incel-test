@@ -59,6 +59,7 @@ function logAnswer(answerId) {
 
 function loadQuestion(questionId) {
     if (questionList.length <= questionId) {
+        finale();
         return;
     }
 
@@ -109,6 +110,14 @@ function calcScore(answer, options) {
     }
     console.log("Even number of answers.")
     return ((answer - n) / n);
+}
+
+function finale() {
+    $("#quizAreaAnswers").empty();
+    console.log("Answers cleared");
+    $("#quizAreaPrompt").prop('innerHTML', "Your score");
+    moveDot((-100 * personality), (-100 * looks));
+    $("#chart").prop('hidden', '');
 }
 
 //$("button.answer").click(function () {

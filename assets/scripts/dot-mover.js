@@ -1,6 +1,3 @@
-function prepare() {
-}
-
 function moveDot(xOffset, yOffset) {
     var chart = document.getElementById("chart").getSVGDocument();
     var dot = chart.getElementById("pinpoint");
