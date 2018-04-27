@@ -31,7 +31,7 @@ function logAnswer(answerId) {
     $("#progressbar").attr('style', 'width: ' + (100 * (questionNum + 1) / questionList.length) + '%');
 
     $("<div></div>", {
-        "class": "card border-primary",
+        "class": "card border-primary mb-3",
         "id": "formerAnswer" + questionNum
     }).prependTo("#answeredCol");
     $("<div></div>", {
