@@ -33,6 +33,17 @@
             ]
         },
         {
+            "prompt": "How athletic is your build? (I know its repeated just input your last answer)",
+            "looks": true,
+            "answers": [
+                "prison muscle",
+                "some muscle definition",
+                "not chubby, no muscle definition",
+                "skinny or chubby",
+                "fat or very skinny"
+            ]
+        },
+        {
             "prompt": "Do you have facial acne?",
             "looks": true,
             "answers": [
