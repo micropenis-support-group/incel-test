@@ -3,13 +3,16 @@ var questionNum = 0;
 var numAnswers;
 var isLooks;
 var personality = 0;
+var personalityCount = 0;
 var looks = 0;
+var looksCount = 0;
 
 $(document).ready(function() {
     console.log("Document loaded.");
 
-    $("button").click(function() {
-        alert("button");
+    $("#quizAreaAnswers").on('click', 'button', function(event) {
+        var ansNum = Number(event.target.id.substring(5));
+        logAnswer(ansNum);
     });
 
     $.getJSON("assets/data/questions.json",
@@ -41,7 +44,7 @@ function logAnswer(answerId) {
         "text": answerText
     }).appendTo(("#formerAnswer" + questionNum + "body"));
 
-    var score = answerId - (numAnswers / 2);
+    var score = calcScore(answerId, numAnswers);
     console.log("Raw score:" + score + ".");
     if (isLooks) {
         looks += score;
@@ -50,12 +53,20 @@ function logAnswer(answerId) {
         personality += score;
         console.log("Personality value is now " + personality + ".");
     }
+
+    loadQuestion(questionNum + 1);
 }
 
 function loadQuestion(questionId) {
     if (questionList.length <= questionId) {
         return;
     }
+
+    questionNum = questionId;
+
+    $("#quizAreaAnswers").empty();
+    console.log("Answers cleared");
+
     // Load the question
     var q = questionList[questionId];
     console.log("Question loaded into memory.");
@@ -79,9 +90,25 @@ function loadQuestion(questionId) {
     isLooks = q.looks;
     if (isLooks) {
         console.log("Question " + questionId + " is about looks.");
+        looksCount++;
     } else {
         console.log("Question " + questionId + " is about personality.");
+        personalityCount++;
     }
+}
+
+function calcScore(answer, options) {
+    n = options / 2;
+    if ((options % 2) != 0) {
+        console.log("Odd number of answers.")
+        if (answer < ((options + 1) / 2)) {
+            return calcScore(answer, options + 1);
+        } else {
+            return calcScore(answer + 1, options + 1);
+        }
+    }
+    console.log("Even number of answers.")
+    return ((answer - n) / n);
 }
 
 //$("button.answer").click(function () {
