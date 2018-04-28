@@ -220,7 +220,7 @@
             ]
         },
         {
-            "prompt": "How many past girlfriends have you had?",
+            "prompt": "How many past girlfriends or boyfriends have you had?",
             "looks": false,
             "answers": [
                 "5+",
