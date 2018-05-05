@@ -6,6 +6,7 @@ var personality = 0;
 var personalityCount = 0;
 var looks = 0;
 var looksCount = 0;
+var currentWeight = 1;
 
 $(document).ready(function() {
     console.log("Document loaded.");
@@ -17,7 +18,7 @@ $(document).ready(function() {
 
     $.getJSON("assets/data/questions.json",
         function(data) {
-            questionList = data.questions;
+            questionList = data;
             console.log("Question list loaded:");
             console.log(questionList);
             loadQuestion(0);
@@ -48,13 +49,13 @@ function logAnswer(answerId) {
     }).appendTo(("#formerAnswer" + questionNum + "body"));
 
     var score = calcScore(answerId, numAnswers);
-    console.log("Raw score:" + score + ".");
+    console.log("│  Raw score:" + score + ".");
     if (isLooks) {
         looks += score;
-        console.log("Looks value is now " + looks + ".");
+        console.log("│  Looks value is now " + looks + ".");
     } else {
         personality += score;
-        console.log("Personality value is now " + personality + ".");
+        console.log("│  Personality value is now " + personality + ".");
     }
 
     loadQuestion(questionNum + 1);
@@ -69,7 +70,7 @@ function loadQuestion(questionId) {
     questionNum = questionId;
 
     $("#quizAreaAnswers").empty();
-    console.log("Answers cleared");
+    console.log("└  Answers cleared");
 
     // Load the question
     var q = questionList[questionId];
@@ -77,7 +78,7 @@ function loadQuestion(questionId) {
 
     // Display prompt
     $("#quizAreaPrompt").prop('innerHTML', q.prompt);
-    console.log("Prompt " + questionId + ", \"" + q.prompt + "\" displayed.");
+    console.log("│  Prompt " + questionId + ", \"" + q.prompt + "\" displayed.");
 
     // Create a button for each answer
     $.each(q.answers, function(index, value) {
@@ -88,43 +89,48 @@ function loadQuestion(questionId) {
         }).appendTo("#quizAreaAnswers");
         numAnswers = index;
     });
-    console.log("Answer list " + questionId + " displayed with " + (numAnswers + 1) + " answers.");
+    console.log("│  Answer list " + questionId + " displayed with " + (numAnswers + 1) + " answers.");
+
+    // Retrieve weighting
+    currentWeight = q.weight;
+    console.log("│  Question " + questionId + " has weight " + currentWeight + ".");
 
     // Retrieve looks or personality
-    isLooks = q.looks;
+    isLooks = q.isLooks;
     if (isLooks) {
-        console.log("Question " + questionId + " is about looks.");
-        looksCount++;
+        console.log("│  Question " + questionId + " is about looks.");
+        looksCount += currentWeight;
     } else {
-        console.log("Question " + questionId + " is about personality.");
-        personalityCount++;
+        console.log("│  Question " + questionId + " is about personality.");
+        personalityCount += currentWeight;
     }
 }
 
 function calcScore(answer, options) {
     n = options / 2;
     if ((options % 2) != 0) {
-        console.log("Odd number of answers.")
+        console.log("│  Odd number of answers.")
         if (answer < ((options + 1) / 2)) {
             return calcScore(answer, options + 1);
         } else {
             return calcScore(answer + 1, options + 1);
         }
     }
-    console.log("Even number of answers.")
-    return ((answer - n) / n);
+    console.log("│  Even number of answers.")
+    return ((answer - n) / n) * currentWeight;
 }
 
 function finale() {
     $("#quizAreaAnswers").empty();
-    console.log("Answers cleared");
+    console.log("└ Answers cleared");
+    console.log("FINALE");
     $("#quizAreaPrompt").prop('innerHTML', "Your score");
 
     // Scale scores
     var personalityFinal = -1 * personality * (253 / personalityCount)
-    console.log("Final personality: " + personalityFinal);
+    console.log("│  Final personality: " + personalityFinal);
     var looksFinal = looks * (253 / looksCount)
-    console.log("Final looks: " + looksFinal);
+    console.log("│  Final looks: " + looksFinal);
 
     moveDot((personalityFinal), (looksFinal));
     $("#chart").removeAttr('hidden');
