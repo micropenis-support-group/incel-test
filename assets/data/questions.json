@@ -25,19 +25,7 @@
     {
         "prompt": "How athletic is your build?",
         "isLooks": true,
-        "weight": 1,
-        "answers": [
-            "prison muscle",
-            "some muscle definition",
-            "not chubby, no muscle definition",
-            "skinny or chubby",
-            "fat or very skinny"
-        ]
-    },
-    {
-        "prompt": "How athletic is your build? (I know its repeated just input your last answer)",
-        "isLooks": true,
-        "weight": 1,
+        "weight": 2,
         "answers": [
             "prison muscle",
             "some muscle definition",
@@ -254,7 +242,7 @@
     {
         "prompt": "Have you ever had sex?",
         "isLooks": false,
-        "weight": 1,
+        "weight": 5,
         "answers": [
             "Yes",
             "No"
