@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     $.getJSON("assets/data/questions.json",
         function(data) {
-            questionList = data.questions;
+            questionList = data;
             console.log("Question list loaded:");
             console.log(questionList);
             loadQuestion(0);
@@ -91,7 +91,7 @@ function loadQuestion(questionId) {
     console.log("Answer list " + questionId + " displayed with " + (numAnswers + 1) + " answers.");
 
     // Retrieve looks or personality
-    isLooks = q.looks;
+    isLooks = q.isLooks;
     if (isLooks) {
         console.log("Question " + questionId + " is about looks.");
         looksCount++;
