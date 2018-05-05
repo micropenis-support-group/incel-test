@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "Question list",
+    "type": "array",
+    "items": {
+        "title": "Question",
+        "type": "object",
+        "properties": {
+            "prompt": {
+                "description": "The question prompt served to the user",
+                "type": "string"
+            },
+            "isLooks": {
+                "description": "Whether the question is about looks (true) or personality (false)",
+                "type": "boolean"
+            },
+            "weight": {
+                "type": "number",
+                "description": "How heavily to weight the question",
+                "exclusiveMinimum": 0
+            },
+            "answers": {
+                "type": "array",
+                "description": "A set of answers to the prompt",
+                "items": {
+                    "title": "Answer",
+                    "description": "A potential answer",
+                    "type": "string"
+                },
+                "minItems": 2,
+                "uniqueItems": true
+            }
+        },
+        "required": ["prompt", "isLooks", "weight", "answers"]
+    },
+    "minItems": 1,
+    "uniqueItems": true
+}
