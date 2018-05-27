@@ -151,7 +151,7 @@ function finale() {
             "you haven’t gotten over it. " +
             "You haven’t had human contact in months, and at this point the only chance you have now " +
             "is to retreat back to your mother’s basement and hope that God grants you a second chance at life.</p>");
-    } else if (personalityFinal < 0 && looksFinal <= 0) {
+    } else if (personalityFinal <= 0 && looksFinal <= 0) {
         $("#congrats-message").addClass('bg-warning mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Beta Chad.");
         $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
@@ -163,7 +163,7 @@ function finale() {
             "Your massive muscles are nothing more than a cover for your corroded soul. " +
             "If you ever get a girlfriend, you have to constantly be on your guard so that you don’t accidently slip " +
             "that you know the entire script to Naruto by heart and she realized the monster you truly are.</p>");
-    } else if (personalityFinal >= 0 && looksFinal > 0) {
+    } else if (personalityFinal >= 0 && looksFinal >= 0) {
         $("#congrats-message").addClass('bg-info mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Chad Beta.");
         $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
