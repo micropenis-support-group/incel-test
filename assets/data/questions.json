@@ -149,6 +149,16 @@
         ]
     },
     {
+         "prompt": "Are traps gay?",
+         "isLooks": false,
+         "weight": 1,
+         "answers": [
+            "I don't understand the question",
+            "Yes",
+            "No"
+         ]
+    },
+    {
         "prompt": "How many hours of videogames do you play in a week (excluding FortNite)",
         "isLooks": false,
         "weight": 1,
