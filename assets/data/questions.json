@@ -35,6 +35,16 @@
         ]
     },
     {
+        "prompt": "How wide are your shoulders in relationship to your hips",
+        "isLooks": true,
+        "weight": 1,
+        "answers": [
+            "Wider than my hips",
+            "Roughly the same width as my hips",
+            "Narrower than my hips"
+        ]
+    },
+    {
         "prompt": "Do you have facial acne?",
         "isLooks": true,
         "weight": 1,
@@ -55,7 +65,7 @@
     {
         "prompt": "Dick Length (in inches)?",
         "isLooks": true,
-        "weight": 1,
+        "weight": 2,
         "answers": [
             "7+",
             "6-7",
@@ -139,7 +149,7 @@
     {
         "prompt": "Have you watched anime?",
         "isLooks": false,
-        "weight": 1,
+        "weight": 2,
         "answers": [
             "I’ve never seen anime",
             "I’ve only seen a couple minutes of an anime",
@@ -147,16 +157,6 @@
             "I’ve seen several episodes of anime",
             "I’ve finished more than one anime series"
         ]
-    },
-    {
-         "prompt": "Are traps gay?",
-         "isLooks": false,
-         "weight": 1,
-         "answers": [
-            "I don't understand the question",
-            "Yes",
-            "No"
-         ]
     },
     {
         "prompt": "How many hours of videogames do you play in a week (excluding FortNite)",
@@ -238,6 +238,28 @@
         ]
     },
     {
+         "prompt": "Are traps gay?",
+         "isLooks": false,
+         "weight": 1,
+         "answers": [
+            "I don't understand the question",
+            "Yes",
+            "No"
+         ]
+    },
+    {
+         "prompt": "When you jack off, what do you whack it to?",
+         "isLooks": false,
+         "weight": 3,
+         "answers": [
+            "I only jerk it to the memories of my past sexual experiences",
+            "I jerk it to my imagination, or I dont pull my pud at all",
+            "pornhub/brazzers",
+            "Hentai",
+            "Trap Hentai"
+         ]
+    },
+    {
         "prompt": "How many past girlfriends or boyfriends have you had?",
         "isLooks": false,
         "weight": 1,
@@ -256,6 +278,17 @@
         "answers": [
             "Yes",
             "No"
+        ]
+    },
+    {
+        "prompt": "Finish this phrase: boku no-",
+        "isLooks": false,
+        "weight": 2,
+        "answers": [
+            "I dont even understand what this means",
+            "I understand what language this is, but I dont get the question",
+            "Hero Academia",
+            "Pico"
         ]
     },
     {
