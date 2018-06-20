@@ -13,7 +13,7 @@
     {
         "prompt": "Height in feet",
         "isLooks": true,
-        "weight": 1,
+        "weight": 2,
         "answers": [
             "6’2<",
             "6’0-6’2",
