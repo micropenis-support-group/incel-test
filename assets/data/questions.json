@@ -260,6 +260,18 @@
          ]
     },
     {
+         "prompt": "Take the political compass quiz, what square are you on?",
+         "isLooks": false,
+         "weight": 1,
+         "answers": [
+            "Firmly in the red (authoritarian left) square",
+            "Firmly in the blue (authoritarian right) square",
+            "Very close to the center/I dont want to take the quiz",
+            "Firmly in the green (libertarian left) square",
+            "Firmly in the purple (libertarian right) square"
+         ]
+    },
+    {
         "prompt": "How many past girlfriends or boyfriends have you had?",
         "isLooks": false,
         "weight": 1,
