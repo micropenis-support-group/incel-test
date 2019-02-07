@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://incel.us/</loc>
+    <image:image>
+      <image:loc>https://incel.us/assets/img/chad_chart.svg</image:loc>
+      <image:caption>Incel-Chad alignment chart</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://incel.us/assets/img/chad_chart.png</image:loc>
+      <image:caption>Incel-Chad alignment chart</image:caption>
+    </image:image>
     <lastmod>2019-02-04T16:44:35Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
