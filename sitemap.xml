@@ -11,8 +11,14 @@
       <image:loc>https://incel.us/assets/img/chad_chart.png</image:loc>
       <image:caption>Incel-Chad alignment chart</image:caption>
     </image:image>
-    <lastmod>2019-02-04T16:44:35Z</lastmod>
+    <lastmod>2019-10-03T20:45:19Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://incel.us/contribs.html</loc>
+    <lastmod>2019-02-04T16:44:35Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
