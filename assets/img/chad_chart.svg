@@ -18,7 +18,7 @@
    viewBox="0 0 543 591"
    enable-background="new 0 0 543 591"
    xml:space="preserve"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="chad_chart.svg"><metadata
    id="metadata3028"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -32,15 +32,15 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="2160"
-   inkscape:window-height="1346"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
    id="namedview3024"
    showgrid="false"
    inkscape:zoom="1.801866"
    inkscape:cx="277.67843"
-   inkscape:cy="296.40286"
-   inkscape:window-x="-11"
-   inkscape:window-y="-11"
+   inkscape:cy="318.60207"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1"
    inkscape:snap-text-baseline="true" />
@@ -51,7 +51,7 @@
    fill="#C8E4BC"
    width="253.817"
    height="253.817"
-   style="fill:#004dff;fill-opacity:0.52093023" />
+   style="fill:#ff1616;fill-opacity:0.52093023" />
 <rect
    id="rect3449"
    x="17.279"
@@ -59,7 +59,7 @@
    width="253.817"
    height="253.817"
    fill="#F9BABA"
-   style="fill:#75c13c;fill-opacity:0.57209301" />
+   style="fill:#ff7d00;fill-opacity:0.63921571" />
 <rect
    id="rect3447"
    x="273.097"
@@ -67,7 +67,7 @@
    fill="#92D9F8"
    width="253.817"
    height="253.817"
-   style="fill:#fb7bf8;fill-opacity:0.4604651" />
+   style="fill:#75c03b;fill-opacity:0.57254905" />
 <rect
    id="rect3418"
    x="273.097"
@@ -75,7 +75,7 @@
    fill="#E1C6DF"
    width="253.817"
    height="253.817"
-   style="fill:#ff7e00;fill-opacity:0.6372093" />
+   style="fill:#5ebbd3;fill-opacity:0.57254905" />
 <path
    id="path3210"
    fill="#010101"
@@ -113,6 +113,7 @@
 
 
 
+
 <text
    font-size="20.431"
    id="text2998"
@@ -123,6 +124,7 @@
      id="tspan849"
      x="518.789"
      y="284.43201">Chad</tspan></text>
+
 
 
 
@@ -139,6 +141,7 @@
 
 
 
+
 <text
    font-size="20.431"
    id="text3002"
@@ -152,13 +155,15 @@
 
 
 
+
 <g
    id="g3487"
-   transform="translate(-75.903324,-129.64318)">
+   transform="translate(-75.903324,-129.64318)"
+   style="fill:#f37f81;fill-opacity:1">
   <text
    font-size="20.431"
    id="text3005"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#00aad4"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f37f81;fill-opacity:1"
    x="476.43683"
    y="291.32938"><tspan
      sodipodi:role="line"
@@ -168,10 +173,11 @@
 
 
 
+
   <text
    font-size="20.431"
    id="text3007"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#00aad4"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f37f81;fill-opacity:1"
    x="476.43683"
    y="311.32938"><tspan
      sodipodi:role="line"
@@ -181,36 +187,41 @@
 
 
 
+
 </g>
 <g
    id="g3493"
-   transform="translate(-331.7206,-129.64318)">
+   transform="translate(-331.7206,-129.64318)"
+   style="fill:#d35f5f;fill-opacity:1">
   <text
    font-size="20.431"
    id="text3010"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f37f81"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#d35f5f;fill-opacity:1"
    x="477.51401"
    y="292.76495">Beta</text>
+
 
 
 
   <text
    font-size="20.431"
    id="text3012"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f37f81"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#d35f5f;fill-opacity:1"
    x="478.25409"
    y="311.32938">Chad</text>
+
 
 
 
 </g>
 <g
    id="g3503"
-   transform="translate(-75.903324,126.17408)">
+   transform="translate(-75.903324,126.17408)"
+   style="fill:#8d5fd3;fill-opacity:1">
   <text
    font-size="20.431"
    id="text3015"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#be89bd"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#8d5fd3;fill-opacity:1"
    x="476.43683"
    y="291.51212"><tspan
      sodipodi:role="line"
@@ -220,10 +231,11 @@
 
 
 
+
   <text
    font-size="20.431"
    id="text3017"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#be89bd"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#8d5fd3;fill-opacity:1"
    x="477.69672"
    y="310.94766"><tspan
      sodipodi:role="line"
@@ -233,14 +245,16 @@
 
 
 
+
 </g>
 <g
    id="g3513"
-   transform="translate(-331.58185,128.34297)">
+   transform="translate(-331.58185,128.34297)"
+   style="fill:#9955ff">
   <text
    font-size="20.431"
    id="text3020"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#4a00ff;fill-opacity:1;"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#9955ff;fill-opacity:1"
    x="477.37524"
    y="288.77878"><tspan
      sodipodi:role="line"
@@ -250,16 +264,18 @@
 
 
 
+
   <text
    font-size="20.431"
    id="text3022"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#4a00ff;fill-opacity:1;"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43066597px;line-height:0%;font-family:Arial-BoldMT;-inkscape-font-specification:'Arial-BoldMT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#9955ff;fill-opacity:1"
    x="477.37524"
    y="308.77878"><tspan
      sodipodi:role="line"
      id="tspan845"
      x="477.37524"
      y="308.77878">Beta</tspan></text>
+
 
 
 
@@ -276,6 +292,7 @@
      id="tspan847-9"
      x="25.379999"
      y="314.50201">Personality</tspan></text>
+
 <text
    font-size="20.431"
    id="text2998-6"
@@ -286,6 +303,7 @@
      id="tspan849-3"
      x="518.789"
      y="314.43201">Personality</tspan></text>
+
 <path
    d="m 284.01105,293.30798 c 0,6.67798 -5.41357,12.09155 -12.09157,12.09155 -6.67796,0 -12.09155,-5.41357 -12.09155,-12.09155 0,-6.678 5.41359,-12.09157 12.09155,-12.09157 6.678,0 12.09157,5.41357 12.09157,12.09157 z"
    id="pinpoint"
