@@ -1,5 +1,5 @@
 [{
-        "prompt": "Describe your chin",
+        "prompt": "Describe your jaw",
         "isLooks": true,
         "weight": 1,
         "answers": [
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "prompt": "Height in feet",
+        "prompt": "What is your height in feet?",
         "isLooks": true,
         "weight": 2,
         "answers": [
@@ -27,15 +27,15 @@
         "isLooks": true,
         "weight": 2,
         "answers": [
-            "prison muscle",
-            "some muscle definition",
-            "not chubby, no muscle definition",
-            "skinny or chubby",
-            "fat or very skinny"
+            "Prison muscle",
+            "Some muscle definition",
+            "Not chubby, no muscle definition",
+            "Skinny or chubby",
+            "Fat or very skinny"
         ]
     },
     {
-        "prompt": "How wide are your shoulders in relationship to your hips",
+        "prompt": "How wide are your shoulders in relation to your hips?",
         "isLooks": true,
         "weight": 1,
         "answers": [
@@ -58,8 +58,8 @@
         "isLooks": true,
         "weight": 1,
         "answers": [
-            "no",
-            "yes"
+            "No",
+            "Yes"
         ]
     },
     {
@@ -67,11 +67,11 @@
         "isLooks": true,
         "weight": 2,
         "answers": [
-            "7+",
-            "6-7",
-            "5-6",
-            "4-5",
-            "<4"
+            "Over 7″",
+            "6-7″",
+            "5-6″",
+            "4-5″",
+            "under 4″"
         ]
     },
     {
@@ -80,10 +80,10 @@
         "weight": 1,
         "answers": [
             "Greek God hair",
-            "full head of hair",
-            "spotting",
-            "bald or shaved my head by “choice”",
-            "balding"
+            "Full head of hair",
+            "Spotting",
+            "Bald or shaved my head by “choice”",
+            "Balding"
         ]
     },
     {
@@ -92,10 +92,10 @@
         "weight": 1,
         "answers": [
             "I manscape",
-            "happy trail",
-            "some taco salad coming out",
+            "Happy trail",
+            "Some taco salad coming out",
             "Greek back",
-            "bear cub"
+            "Bear cub"
         ]
     },
     {
@@ -104,9 +104,9 @@
         "weight": 1,
         "answers": [
             "My face is sculpted from marble",
-            "barely noticeable asymmetry",
-            "normal symmetry",
-            "noticeable asymmetry",
+            "Barely noticeable asymmetry",
+            "Normal degree of symmetry",
+            "Noticeable asymmetry",
             "I look like I’m having a stroke"
         ]
     },
@@ -115,23 +115,23 @@
         "isLooks": true,
         "weight": 1,
         "answers": [
-            "big, meaty, claws",
-            "catchers mitts",
-            "normal size",
+            "Big, meaty, claws",
+            "Catchers mitts",
+            "Normal size",
             "Female hand model size",
-            "Donald Trump hands"
+            "It looks like there are baby doll hands coming out of my sleeves"
         ]
     },
     {
-        "prompt": "How expensive is your average outfit?(in dollars)",
+        "prompt": "How expensive is your average outfit?",
         "isLooks": true,
         "weight": 1,
         "answers": [
-            "160-200",
-            "120-160",
-            "80-120",
-            "40-80",
-            "0-40"
+            "over $160",
+            "$120-160",
+            "$80-120",
+            "$40-80",
+            "under $40"
         ]
     },
     {
@@ -139,11 +139,11 @@
         "isLooks": true,
         "weight": 1,
         "answers": [
-            "premium calf leather loafers",
+            "Premium calf leather loafers",
             "Yeezy",
-            "converse",
-            "adult sketchers",
-            "those fucking toe shoes"
+            "Converse",
+            "Adult sketchers",
+            "Those fucking toe shoes"
         ]
     },
     {
@@ -159,77 +159,77 @@
         ]
     },
     {
-        "prompt": "How many hours of videogames do you play in a week (excluding FortNite)",
+        "prompt": "How many hours of videogames do you play in a week (excluding Fortnite)?",
         "isLooks": false,
         "weight": 1,
         "answers": [
-            "0-7",
-            "7-14",
-            "14-21",
-            "21-28",
-            "28+"
+            "Under 7 hours",
+            "7-14 hours",
+            "14-21 hours",
+            "21-28 hours",
+            "Over 28 hours"
         ]
     },
     {
-        "prompt": "How many times do you jack off in a week",
+        "prompt": "How many times do you jack off in a week?",
         "isLooks": false,
         "weight": 1,
         "answers": [
-            "0-2",
+            "Under 2",
             "2-5",
             "5-7",
             "7-10",
-            "10+"
+            "Over 10"
         ]
     },
     {
-        "prompt": "What do you vape with",
+        "prompt": "What do you vape with?",
         "isLooks": false,
         "weight": 1,
         "answers": [
             "I rip that juul",
-            "I only socially rip that juul",
+            "I only socially vape",
             "I don’t vape",
             "I have a box vape",
             "I have a custom vape"
         ]
     },
     {
-        "prompt": "Do you darty",
+        "prompt": "Do you darty?",
         "isLooks": false,
         "weight": 1,
         "answers": [
-            "yes",
-            "no",
-            "the fucks a darty"
+            "Yes",
+            "No",
+            "The fuck’s a darty?"
         ]
     },
     {
-        "prompt": "How many nights do you party",
+        "prompt": "How often do you party?",
         "isLooks": false,
         "weight": 1,
         "answers": [
             "I’m never sober",
             "2-4 times a week",
             "1-2 times a week",
-            "1, but your in the corner the whole time",
+            "1, but hiding in the corner the whole time",
             "0"
         ]
     },
     {
-        "prompt": "What’s your major",
+        "prompt": "What’s your major?",
         "isLooks": false,
         "weight": 1,
         "answers": [
-            "social science",
-            "humanities",
-            "fine arts",
-            "chem, bio, pre-med",
-            "math/comp sci/physics"
+            "Social science",
+            "Humanities",
+            "Fine arts",
+            "Chemistry, Biology, Pre-med",
+            "Math, Computer Science, Physics"
         ]
     },
     {
-        "prompt": "Are you a member of a frat?",
+        "prompt": "Are you a member of a fraternity?",
         "isLooks": false,
         "weight": 1,
         "answers": [
@@ -248,13 +248,13 @@
          ]
     },
     {
-         "prompt": "When you jack off, what do you whack it to?",
+         "prompt": "When you beat off, what do you whack it to?",
          "isLooks": false,
          "weight": 3,
          "answers": [
             "I only jerk it to the memories of my past sexual experiences",
             "I jerk it to my imagination, or I dont pull my pud at all",
-            "pornhub/brazzers",
+            "Pornhub/Brazzers",
             "Hentai",
             "Trap Hentai"
          ]
@@ -276,11 +276,11 @@
         "isLooks": false,
         "weight": 1,
         "answers": [
-            "5+",
+            "Over 5",
             "4-5",
             "2-3",
             "1",
-            "0"
+            "None"
         ]
     },
     {
@@ -304,13 +304,13 @@
         ]
     },
     {
-        "prompt": "What's 4chan",
+        "prompt": "What’s 4chan?",
         "isLooks": false,
         "weight": 1,
         "answers": [
-            "what’s 4chan",
-            "a hacker",
-            "a website"
+            "What’s 4chan",
+            "A hacker",
+            "A website"
         ]
     },
     {
@@ -318,11 +318,11 @@
         "isLooks": false,
         "weight": 1,
         "answers": [
-            "15+",
+            "Over 15",
             "10-15",
             "5-10",
             "2-5",
-            "0-2"
+            "Under 2"
         ]
     }
 ]
