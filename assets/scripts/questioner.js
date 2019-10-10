@@ -162,7 +162,7 @@ function finale() {
             "No amount of skincare products you use will ever wash away all the anime episodes you have watched. " +
             "Your massive muscles are nothing more than a cover for your corroded soul. " +
             "If you ever get a girlfriend, you have to constantly be on your guard so that you don’t accidently slip " +
-            "that you know the entire script to Naruto by heart and she realized the monster you truly are.</p>");
+            "that you know the entire script to Naruto by heart and she realizes the monster you truly are.</p>");
     } else if (personalityFinal >= 0 && looksFinal >= 0) {
         $("#congrats-message").addClass('bg-info mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Chad Beta.");
@@ -170,22 +170,22 @@ function finale() {
             "You have the personality of a chad but the looks of a beta male. " +
             "Don’t worry, even though you look like a fat piece of shit your chad personality will carry you through life. " +
             "You probably are part of a frat, and can talk to chicks at parties. " +
-            "Your chad-ness will still carry you through life, so enjoy graduating with an econ/poly sci major and getting a desk job, " +
-            "and marrying an ex-sorority girl at age 30, and having two kids named Brad and Stacey.</p>");
+            "Your chad-ness will still carry you through life, so enjoy graduating with an Economics or Political Science major, getting a desk job, " +
+            "marrying an ex-sorority girl at age 30, and having two kids named Brad and Stacey.</p>");
     } else if (personalityFinal > 0 && looksFinal < 0) {
         $("#congrats-message").addClass('bg-success mb-3');
         $("#congrats-message-header").prop('innerHTML', "You are Chad Chad.");
         $("#congrats-message-body").prop('innerHTML', "<p class=\"card-text\">" +
             "You look and act like Mr. Steal Your Girl. " +
-            "You naturally smell like old spice, and no matter what happens you always manage to find a clean vineyard vines shirt" +
-            "in your closet. You sweat juul pods, and your urine is bottled and sold as craft beer. " +
-            "Your future entails: You enjoy working as an I-banker at Goldman Sachs. You married your formal date. " +
-            "You lived in an upper middle class suburban house. Your son just got named captain of the football team, " +
+            "You naturally smell like Old Spice, and no matter what happens you always manage to find a clean Vineyard Vines shirt" +
+            "in your closet. You sweat juul pods, and your urine is bottled and sold as craft beer.</p>\n" +
+            "<p>Your future entails: You enjoy working as an investment banker at Goldman Sachs. " +
+            "You live in an upper middle class suburban house, maried to your formal date. Your son just got named captain of the football team, " +
             "and he named you his role model at his acceptance speech. Your life is on easy mode. " +
-            "Just please, when your living your perfect life, just remember the beta betas of the world, living in their mom’s basement, " +
+            "Just please, when your living your perfect life, just remember the Beta Betas of the world, living in their mothers’ basements, " +
             "covered in Cheeto dust and trying to understand how to function like a human. " +
-            "Please remember the most destitute of humans and try to be grateful for the fact that God has handed you a golden, " +
-            "6 pack and prefect blonde hair shaped ticket.</p>");
+            "Please remember the most destitute of humans and try to be grateful for the fact that God has handed you a golden " +
+            "six-pack and prefect blonde hair-shaped ticket.</p>");
     }
     $("#congrats-message").removeAttr('hidden');
 }
