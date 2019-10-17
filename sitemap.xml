@@ -21,4 +21,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://incel.us/assets/data/questions.json</loc>
+    <lastmod>2019-10-17T20:25:03Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
 </urlset>
