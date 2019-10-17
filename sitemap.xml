@@ -22,6 +22,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://incel.us/faq.html</loc>
+    <lastmod>2019-10-17T21:31:03Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://incel.us/assets/data/questions.json</loc>
     <lastmod>2019-10-17T20:25:03Z</lastmod>
     <changefreq>monthly</changefreq>
