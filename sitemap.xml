@@ -11,19 +11,19 @@
       <image:loc>https://incel.us/assets/img/chad_chart.png</image:loc>
       <image:caption>Incel-Chad alignment chart</image:caption>
     </image:image>
-    <lastmod>2019-10-10T00:25:40Z</lastmod>
+    <lastmod>2019-10-17T21:29:30Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://incel.us/contribs.html</loc>
-    <lastmod>2019-02-04T16:44:35Z</lastmod>
+    <lastmod>2019-10-17T21:29:30Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://incel.us/faq.html</loc>
-    <lastmod>2019-10-17T21:31:03Z</lastmod>
+    <lastmod>2019-10-17T23:00:40Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -31,6 +31,12 @@
     <loc>https://incel.us/assets/data/questions.json</loc>
     <lastmod>2019-10-17T20:25:03Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://incel.us/LICENSE</loc>
+    <lastmod>2018-04-25T06:06:56Z</lastmod>
+    <changefreq>never</changefreq>
     <priority>0.1</priority>
   </url>
 </urlset>
