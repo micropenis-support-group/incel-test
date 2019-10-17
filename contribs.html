@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -34,7 +34,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary"
+    vocab="https://schema.org/" typeof="BreadcrumbList">
         <div class="container">
             <a class="navbar-brand" href="">Incel Test</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,14 +44,33 @@
 
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
+                    <li class="nav-item"
+                    property="itemListElement" typeof="ListItem">
+                        <a class="nav-link"
+                        property="item" typeof="WebPage"
+                        href="/">
+                            <span property="name">
+                                Home
+                            </span>
+                        </a>
+                        <meta property="position" content="1">
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://boards.4chan.org/r9k/">About</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./contribs.html">Contributors <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active"
+                    property="itemListElement" typeof="ListItem">
+                        <a class="nav-link"
+                        property="item" typeof="WebPage"
+                        href=".">
+                            <meta property="url" content="." />
+                            <span property="name">Contributors</span>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <meta property="position" content="2">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq.html">FAQs</a>
                     </li>
                 </ul>
             </div>
