@@ -3,11 +3,23 @@
         "isLooks": true,
         "weight": 1,
         "answers": [
-            "Cleft, pronounced jawline",
+            "Pronounced jawline visible from a distance",
             "Reasonably nice jaw",
             "Average",
+            "Rounded from all angles",
+            "No jaw definition whatsoever"
+        ]
+    },
+    {
+        "prompt": "How pronounced is your chin?",
+        "isLooks": true,
+        "weight": 1,
+        "answers": [
+            "Enormous, cleft chin",
+            "Relatively pronounced",
+            "Average",
             "Double chin",
-            "No jaw"
+            "Recessed beyond the most unevolved Neanderthal"
         ]
     },
     {
@@ -15,11 +27,11 @@
         "isLooks": true,
         "weight": 2,
         "answers": [
-            "6’2<",
+            "over 6’2",
             "6’0-6’2",
             "5’10-6’0",
             "5’8-5,10",
-            "<5’8"
+            "shorter than 5’8"
         ]
     },
     {
@@ -31,7 +43,7 @@
             "Some muscle definition",
             "Not chubby, no muscle definition",
             "Skinny or chubby",
-            "Fat or very skinny"
+            "Fat or emaciated"
         ]
     },
     {
