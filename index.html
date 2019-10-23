@@ -48,7 +48,20 @@
 
         gtag('config', 'UA-56093027-4');
     </script>
-
+    <script>
+        /**
+        * Function that captures a click on an outbound link in Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+        * using 'navigator.sendBeacon' in browser that support it.
+        */
+        var captureOutboundLink = function(url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon',
+                'hitCallback': function(){document.location = url;}
+            });
+        }
+    </script> 
 </head>
 
 <body>
@@ -65,7 +78,8 @@
                         <a class="nav-link" href=".">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://boards.4chan.org/r9k/">About</a>
+                        <a class="nav-link" href="https://boards.4chan.org/r9k/"
+                        onclick="captureOutboundLink('https://boards.4chan.org/r9k/'); return false;">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contribs.html">Contributors</a>
